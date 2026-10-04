@@ -344,3 +344,5 @@ export class AntigravityObserverAdapter extends EventEmitter implements Dispatch
     this.#watchers.clear();
   }
 }
+
+export { harnessPresentation } from './presentation.js';
